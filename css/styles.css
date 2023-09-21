@@ -9,8 +9,8 @@ body {
 .header {}
 
 .header-navigation,
-.club-list .link:hover,
-.club-list .link:focus{
+:hover,
+:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -34,7 +34,7 @@ body {
     color: #2e2f42;
 }
 
-.header-menu {}
+.header-menu{}
 
 .header-menu-item {}
 
@@ -43,18 +43,18 @@ body {
 .header-address 
 .club-list .link:hover,
 .club-list .link:focus{
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
     color: #404bbf;
     color: #404bbf;
+    font-style: normal;
 }
 
-.header-info-list {}
+.header-gryp-list{}
 
-.list {}
+.header-info-list {}
 
 .header-info-post {}
 
@@ -78,9 +78,7 @@ body {
     color: #2e2f42;
 }
 
-.hero-italic {}
-
-.hero-btn 
+.hero-knopka
 .club-list .link:hover,
 .club-list .link:focus{
     background-color: #4D5AE5;
@@ -137,11 +135,9 @@ body {
     color: #2e2f42;
 }
 
-.team-list {
-    background-color: #FFFFFF;
-}
+.team-list {}
 
-.team-item {}
+.team-item {background-color: #FFFFFF}
 
 .team-image {}
 
