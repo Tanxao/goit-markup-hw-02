@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -8,16 +9,12 @@ body {
 
 .header {}
 
-.header-navigation,
-:hover,
-:focus{
+.header-navigation,{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    color: #404bbf;
-    color: #404bbf;
 }
 
 .header-logo {
@@ -41,8 +38,7 @@ body {
 .header-menu-link {}
 
 .header-address 
-.club-list .link:hover,
-.club-list .link:focus{
+{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -51,7 +47,6 @@ body {
     color: #404bbf;
     font-style: normal;
 }
-
 .header-gryp-list{}
 
 .header-info-list {}
@@ -78,9 +73,7 @@ body {
     color: #2e2f42;
 }
 
-.hero-knopka
-.club-list .link:hover,
-.club-list .link:focus{
+.hero-button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -88,10 +81,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #404BBF;
-    background-color: #404BBF;
     cursor: pointer;
 }
+
+ .hero-button:hover,
+ .hero-button:focus{
+    background-color: #404BBF;
+ }
 
 /*=====================================*/
 
