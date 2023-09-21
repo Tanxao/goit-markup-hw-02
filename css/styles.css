@@ -11,16 +11,13 @@ body {
 .header-navigation {}
 
 .header-logo {
-    width: 44px;
-        Copy color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.16;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+            font-family: "Raleway", sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: #4d5ae5;
 }
 
 .header-menu {}
@@ -53,6 +50,10 @@ color: var(--WHITE, #FFF);
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
+}
+
+.hero-italicteam-image{
+    color: #2e2f42;
 }
 
 .hero-italic {}
