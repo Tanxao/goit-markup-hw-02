@@ -8,7 +8,9 @@ body {
 
 .header {}
 
-.header-navigation {
+.header-navigation,
+.club-list .link:hover,
+.club-list .link:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -19,13 +21,17 @@ body {
 }
 
 .header-logo {
-            font-family: "Raleway", sans-serif;
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
-                color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-weight: 700;
+}
+
+.header-spam{
+    color: #2e2f42;
 }
 
 .header-menu {}
@@ -34,7 +40,10 @@ body {
 
 .header-menu-link {}
 
-.header-address {
+.header-address 
+.club-list .link:hover,
+.club-list .link:focus{
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -71,7 +80,9 @@ body {
 
 .hero-italic {}
 
-.hero-btn {
+.hero-btn 
+.club-list .link:hover,
+.club-list .link:focus{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -168,9 +179,7 @@ body {
 
 .portfolio-item {}
 
-.portfolio-imale {
-    width: 360;
-}
+.portfolio-imale {}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -207,6 +216,10 @@ body {
 }
 
 .footer-italicteam-image{
+    color: #f4f4fd;
+}
+
+.footer-span{
     color: #f4f4fd;
 }
 
