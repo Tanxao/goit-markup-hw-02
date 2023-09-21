@@ -4,16 +4,212 @@ body {
     background-color: #FFFFFF;
 }
 
-h1  {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700
-    font-size: 18px
-    line-height: 1.17
-    letter-spacing: 0.03em
-    text-transform: uppercase
-    color: #4d5ae5;
+/*===================HEADER==================*/
+
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+    width: 44px;
+        Copy color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 }
 
-span {
- color: #2e2f42;
+.header-menu {}
+
+.header-menu-item {}
+
+.header-menu-link {}
+
+.header-address {}
+
+.header-info-list {}
+
+.list {}
+
+.header-info-post {}
+
+/*=====================================*/
+
+/*===================HERO==================*/
+.hero {
+    background: var(--NAVY-BLUE, #2E2F42);
 }
+
+.hero-title {
+color: var(--WHITE, #FFF);
+    width: 496px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.hero-italic {}
+
+.hero-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    Copy border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    color: var(--WHITE, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.50;
+        /* 150% */
+        letter-spacing: 0.64px;
+}
+
+/*=====================================*/
+
+/*===================MAIN==================*/
+.main {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.main-list {}
+
+.main-item {}
+
+.main-subtitle {}
+
+.main-item-text {}
+
+/*=====================================*/
+
+/*===================TEAM==================*/
+
+.team {}
+
+.team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-image {}
+
+.team-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.20;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.team-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/*=====================================*/
+
+/*=================PORTFOLIO====================*/
+
+.portfolio {}
+
+.portfolio-zal {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-imale {}
+
+.portfolio-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.20;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/*=====================================*/
+
+/*===================FOOTER==================*/
+
+.footer {
+    width: 1440px;
+        height: 312px;
+        flex-shrink: 0;
+         background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo {
+        display: inline-flex;
+        height: 24px;
+        align-items: center;
+        flex-shrink: 0;
+        
+}
+
+.footer-text {
+        width: 264px;
+        color: var(--CLOUD, #F4F4FD);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.50;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+/*=====================================*/
+
+
