@@ -35,10 +35,10 @@ body {
 }
 
 .header-menu-link {
-    color: #434455;
+    color: #2e2f42;
 }
 
-.header-menu-link:hover
+.header-menu-link:hover,
 .header-menu-link:focus {
     color: #404bbf;
 }
@@ -60,7 +60,7 @@ body {
     color: #434455;
 }
 
-.header-info-post:hover
+.header-info-post:hover,
 .header-info-post:focus {
     color: #404bbf;
 }
