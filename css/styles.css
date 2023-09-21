@@ -31,14 +31,15 @@ body {
 .header-menu-item {
      font-weight: 500 font-size: 16px;
      line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #434455;
+     letter-spacing: 0.02em;  
 }
 
-.header-menu-link {}
+.header-menu-link {
+    color: #434455;
+}
 
-.header-menu-item:hover
-.header-menu-item:focus {
+.header-menu-link:hover
+.header-menu-link:focus {
     color: #404bbf;
 }
 
@@ -50,15 +51,17 @@ body {
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #434455;
+     
 }
 
 .header-info-list {}
 
-.header-info-post{}
+.header-info-post{
+    color: #434455;
+}
 
-.header-gryp-list:hover
-.header-gryp-list:focus {
+.header-info-post:hover
+.header-info-post:focus {
     color: #404bbf;
 }
 
